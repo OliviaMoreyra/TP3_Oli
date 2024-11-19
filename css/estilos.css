@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Raleway&display=swap');
+
+body {
+    background-color: #000000; 
+    color: #ffffff; 
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 400;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: #0000ff; 
+}
+
+.navbar-brand img { 
+    width: 32px;
+}
+
+.navbar-toggler {
+    border-color: #ffffff; 
+}
+
+.navbar-toggler span { 
+    color: #ffffff; 
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+.nav-link:hover {
+    color: #cccccc; 
+}
+
+
+.footer-custom {
+    background-color: #0000ff; 
+    color: #ffffff; 
+}
+
+
+
+.carousel {
+   
+    max-width: 100%;
+    margin: 0 auto; 
+    padding: 1em; 
+    border: none; 
+    margin: 30px;
+}
+
+.carousel-inner img {
+    width: 100%; 
+    height: auto; 
+}
+
+
+.carousel img {
+    border-radius: 0; 
+}
+
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    filter: invert(1);
+}
+
+.modal-title {
+    color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bowlby One', sans-serif; 
+    color: #ffffff; 
+}
+
+
+.text-center p,
+.final-subtitle,
+p {
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 400;
+    color: #ffffff; 
+    font-style: italic;
+}
+
+
+.final-title {
+    font-family: 'Bowlby One', sans-serif; 
+    color: #ffffff; 
+}
+
+
+.carousel-control-next-icon { 
+    background-image: url(../imagenes/next.png);
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../imagenes/prev.png);
+}
+
+
+form .form-label {
+    color: #ffffff; 
+}
+
+form .form-control {
+    background-color: #000000; 
+    color: #ffffff; 
+    border: 1px solid #ffffff; 
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 400;
+}
+
+form .form-control:focus {
+    background-color: #000000;
+    color: #ffffff;
+    border-color: #cccccc;
+}
+
+.invalid-feedback {
+    color: #ff0000; 
+}
